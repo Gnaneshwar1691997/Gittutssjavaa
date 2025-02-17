@@ -33,6 +33,7 @@ public class ProductController {
         service.updateProduct(prod);
 
     }
+    //hello git comming
 
     @DeleteMapping("/products/{prodId}")
     public void deleteProduct(@PathVariable int prodId){

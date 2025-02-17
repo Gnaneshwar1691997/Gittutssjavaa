@@ -34,6 +34,7 @@ public class ProductController {
 
     }
     //hello git comming
+    //Dev2
 
     @DeleteMapping("/products/{prodId}")
     public void deleteProduct(@PathVariable int prodId){
